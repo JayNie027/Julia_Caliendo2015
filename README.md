@@ -6,3 +6,6 @@
   
   * I assume trade are balanced. One can change that by adding trade deficit in eqlibrium conditions.
   * In their paper, they use hat algebra so there is no need to calibrate full parameters such as bilateral trade cost and sectoral productivities. In this Julia program, you need to calibrate those parameters since it not served for hat algebra.
+
+
+If you see anything wired. Please feel free to let me know. 
