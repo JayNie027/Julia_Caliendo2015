@@ -3,7 +3,7 @@ using Printf
 using LinearAlgebra
 # This file is replicate the multi country and multi sector model from Caliendo 'welfare analysis for NAFTA'
 # We assume two countries and two sectors with sectoral linkages
-# to simplify, assume trade is balance in each sector. Since usually we assume exogenous trade deficit, one can add that in trade equlibrium condition
+# to simplify, assume trade is balance at country level (you can relax this assumption to sector level or adding trade imbalance). Since usually we assume exogenous trade deficit, one can add that in trade equlibrium condition
 
 include("function.jl")
 include("solve_eq.jl")
