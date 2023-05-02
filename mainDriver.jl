@@ -55,7 +55,7 @@ end
 Bnj # constant in marginal cost function, not that important
 
 # define trade elasticity, assume both sector equals to 4 
-theta = 4.0 .* ones(N)
+theta = 4.0 .* ones(J)
 
 
 # defined all exogenous variables
